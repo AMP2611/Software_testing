@@ -1,6 +1,74 @@
 
-• Learn software testing fundamentals: SDLC, STLC, bug lifecycle. 
+• Learn software testing fundamentals: SDLC, STLC, bug lifecycle.
+     SDLC defines the stages/phases involved in developing software to ensure quality and cost-effectiveness.
+     Phases:
+     Requirement Gathering
+     Design
+     Implementation (Coding)
+     Testing
+     Deployment
+     Maintenance
+
+     STLC – Software Testing Life Cycle
+     STLC is a series of activities performed by testers to ensure software quality.
+     Phases:
+     Requirement Analysis
+     Test Planning
+     Test Case Design
+     Test Environment Setup
+     Test Execution
+     Test Closure
+ 
+     Bug/Defect Life Cycle
+     The journey of a defect from detection to closure.
+     States:
+     New → Assigned → Open → Retest → Verified → Closed
+     Others: Reopened, Deferred, Rejected, Duplicate, Not a Bug
+
+
+
 • Understand different types of testing: Manual vs. Automated, Functional, Non
 functional, Regression, Smoke, Sanity. 
+    Type	                               Description
+    Manual Testing	             Executed manually without tools
+    Automated Testing	           Executed using automation tools/scripts
+    Functional Testing	         Validates software functions against requirements
+    Non-functional               Checks performance, usability, security, etc.
+    Regression Testing        	 Ensures updates don't break existing functionality
+    Smoke Testing                Basic check to ensure critical features work
+    Sanity Testing	             Focused test after a bug fix or code change
+
+
 • Study test case, test plan, and bug report formats. 
-• Task: Review an existing app or website, document 5 bugs and suggestions. 
+    Field              Description
+    Test Case ID    	 Unique ID (e.g., TC_Login_01)
+    Module             Area tested (e.g., Login)
+    Test Steps	       Actions to perform
+    Expected Result    Expected behavior
+    Actual Result	     Observed behavior
+    Status	           Pass/Fail
+    Remarks	           Notes, if any
+
+    Test Plan Format
+    Objective
+    Scope
+    Test Items
+    Testing Types
+    Test Deliverables
+    Schedule
+    Resources
+    Risk Management
+
+    Bug Report Format
+    Field	                         Description
+    Bug ID	                  Unique bug identifier
+    Title	                    Bug summary
+    Steps to Reproduce	      Reproduction steps
+    Expected Result         	Expected correct behavior
+    Actual Result	            What actually happened
+    Severity                 	Critical, Major, Minor
+    Priority                	High, Medium, Low
+    Environment	              Browser, OS, device, etc.
+
+• Task: Review an existing app or website, document 5 bugs and suggestions.
+    SQA_Testing_Documentation.xlsx
